@@ -165,3 +165,128 @@
     transition: 0.5s;
     font-size: 16px;
 }
+.arrow
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 560px;
+    /* background-color: rgb(250, 243, 227); */
+    gap: 10px;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.arrow div
+{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    width: 300px;
+
+}
+#arrow1
+{
+    height: 400px;
+    padding: 30px;
+
+}
+#arrow1 span
+{
+    font-size: 30px;
+    color: rgb(40, 120, 40);
+}
+#arrow1 h2
+{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+#arrow1 p
+{
+    margin-bottom: 30px;
+    line-height: 2;
+    margin-right: px;
+}
+#arrow1 a i
+{
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+#arrow1 a
+{
+    margin-left: 40px;
+    color: black;
+}
+/* #arrow1 a:hover
+{
+    background-color: rgb(40, 120, 40);
+    padding: 15px;
+} */
+#arrow2
+{
+    height: 400px;
+    padding: 30px;
+    width: 300px;
+
+}
+#arrow2 span
+{
+    font-size: 30px;
+    color: rgb(40, 120, 40);
+}
+#arrow2 h2
+{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+#arrow2 p
+{
+    margin-bottom: 30px;
+    line-height: 2;
+    margin-right: px;
+}
+#arrow2 a i
+{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+#arrow2 a
+{
+    margin-left: 40px;
+    color: black;
+}
+#arrow3
+{
+    height: 400px;
+    padding: 30px;
+    width: 320px;
+
+}
+#arrow3 span
+{
+    font-size: 30px;
+    color: rgb(40, 120, 40);
+}
+#arrow3 h2
+{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+#arrow3 p
+{
+    margin-bottom: 30px;
+    line-height: 2;
+    margin-right: px;
+}
+#arrow3 a i
+{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+#arrow3 a
+{
+    margin-left: 40px;
+    color: black;
+}
+
