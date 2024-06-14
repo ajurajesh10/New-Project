@@ -1,221 +1,425 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Textile</title>
-    <link rel="stylesheet" href="/CSS/style.css" />
-    <link rel="icon" href="/IMAGES/353718.png" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="/Project 1/CSS/style.css" />
+
+    <title>Website Builder: Create a Nwe Website</title>
+    <link rel="stylesheet" href="/Project 1/CSS/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
   </head>
   <body>
-    <div class="body">
-      <div class="navbar">
-        <div class="div1">
-          <img src="/IMAGES/loyal-textile-logo.png" alt="" width="130px" />
+    <!-- _____________________toolbar____________________________ -->
+
+    <div class="container-fluid">
+      <div class="row text-center toolbar">
+        <div class="col-lg pt-3">
+          <p>Save 50% for 12 months</p>
+          <p>- limited time offer. <a href="">Get Started today</a></p>
         </div>
-
-        <div class="div2">
-          <ul class="menu">
-            <li class="home"><a href="">Home</a></li>
-            <li class="aboutus"><a href="">About Us</a></li>
-            <li class="products">
-              <a href="">Products</a>
-              <!-- <ul>
-                    <li><a href="">Yarn</a></li>
-                    <li><a href="">Fabrics</a></li>
-                    <li><a href="">Garments</a></li>
-                    <li><a href="">Home Textile</a></li>
-                    <li><a href="">Organic Products</a></li>
-                    <li><a href="">Face Mask</a></li>
-                    <li><a href="">PPE Kits</a></li>
-                    <li><a href="">Agents/Dealers</a></li>
-                </ul> -->
-            </li>
-            <li class="shop"><a href="">Shop</a></li>
-            <li class="more"><a href="">More</a></li>
-            <li class="Contact"><a href="">Contact</a></li>
-          </ul>
-        </div>
-
-        <div class="div3">
-          <a href=""
-            ><button type="button">
-              <i class="fa-solid fa-cart-shopping"></i></button
-          ></a>
-        </div>
-      </div>
-
-      <div class="image">
-        <img src="/IMAGES/wp2568544.jpg" alt="" width="100%" height="600px" />
-      </div>
-
-      <div class="facts">
-        <div class="header">
-          <h1>FACTS</h1>
-        </div>
-
-        <div class="icon1">
-          <img src="/IMAGES/icon/1.png" alt="" />
-          <h1>33,000</h1>
-          <h3>tons yarn / year</h3>
-        </div>
-
-        <div class="icon2">
-          <img src="/IMAGES/icon/2.png" alt="" />
-          <h1>28,800</h1>
-          <h3>tons of fabric / year</h3>
-        </div>
-
-        <div class="icon3">
-          <img src="/IMAGES/icon/3.png" alt="" />
-          <h1>20,000</h1>
-          <h3>pieces of knitted garments / day</h3>
-        </div>
-
-        <div class="icon4">
-          <img src="/IMAGES/icon/4.png" alt="" />
-          <h1>15,000</h1>
-          <h3>pieces of woven garments / day</h3>
-        </div>
-
-        <div class="icon5">
-          <img src="/IMAGES/icon/5.png" alt="" />
-          <h1>42.33</h1>
-          <h3>mega watts our annual wind power</h3>
-        </div>
-
-        <div class="icon6">
-          <img src="/IMAGES/icon/6.png" alt="" />
-          <h1>8.4</h1>
-          <h3>mega watts our annual solar power</h3>
-        </div>
-
-        <div class="icon7">
-          <img src="/IMAGES/icon/7.png" alt="" />
-          <h1>7,500</h1>
-          <h3>total number of employees</h3>
-        </div>
-
-        <div class="icon8">
-          <p>Loyal Fact Sheet</p>
-          <a href=""><button type="button" class="button">Download</button></a>
-        </div>
-
-        <div class="icon9">
-          <p>Loyal Brochure</p>
-          <a href=""><button type="button" class="button">Download</button></a>
-        </div>
-      </div>
-
-      <div
-        style="
-          background-color: rgb(250, 243, 227);
-          display: flex;
-          justify-content: center;
-        "
-      >
-        <div class="arrow">
-          <div id="arrow1">
-            <span><i class="fa-brands fa-windows"></i></span>
-            <h2>WE MANUFACTURE</h2>
-            <p>
-              Yarns, Fabrics, Garments and other Home textiles products are
-              manufactured and exported to 49 different countries across the
-              globe every year.
-            </p>
-            <a href="">INNOVATION <i class="fa-solid fa-arrow-right"></i></a>
-          </div>
-
-          <div id="arrow2">
-            <span><i class="fa-solid fa-laptop-code"></i></span>
-            <h2>WE DESIGN FABRIC</h2>
-            <p>
-              Knitted and Woven fabrics are designed and developed within our
-              existing facilities. 100% Cotton, Polyester Blends, Linen Blends.
-            </p>
-            <a href="">TECHNOLOGY <i class="fa-solid fa-arrow-right"></i></a>
-          </div>
-
-          <div id="arrow3">
-            <span><i class="fa-solid fa-laptop-code"></i></span>
-            <h2>WE ENGINEER</h2>
-            <p>
-              Loyal Textiles carries its own, holistic manufacturing units for
-              ginning, spinning, knitting, weaving and garmenting processes
-              situated in and around Tamilnadu.
-            </p>
-            <a href="">AUTOMOTIVE <i class="fa-solid fa-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="category">
-        <div class="imagepro">
-          <h1>PRODUCTS CATEGORY</h1>
-        </div>
-
-        <div class="maindiv">
-
-        <div class="imagepro1">
-          <img  
-            src="/IMAGES/images/burger.jpg"
-            alt=""
-            width="350px"
-            height="350px"
-          />
-            <h1>GARMENTS</h1>
-            <h4 id="click">VIEW MORE</h4>
-        </div>
-
-        <div class="imagepro2">
-          <img
-            src="/IMAGES/images/chinese.jpeg"
-            alt=""
-            width="350px"
-            height="350px"
-          />
-          <h1>FABRICS</h1>
-          <h4 id="click">VIEW MORE</h4>
-        </div>
-
-        <div class="imagepro3">
-          <img
-            src="/IMAGES/images/plate shawarma.jpg"
-            alt=""
-            width="350px"
-            height="350px"
-          />
-          <h1>YARN</h1>
-          <h4 id="click">VIEW MORE</h4>
-        </div>
-
-        <div class="imagepro4">
-          <img
-            src="/IMAGES/images/sandwich.jpeg"
-            alt=""
-            width="350px"
-            height="350px"
-          />
-          <h1>HOME TEXTILES</h1>
-          <h4 id="click">VIEW MORE</h4>
-        </div>
-
-        <div class="imagepro5">
-          <img
-            src="/IMAGES/images/shawarma roll.jpg"
-            alt=""
-            width="350px"
-            height="350px"
-          />
-          <h1>ORGANIC <br>PRODUCTS</h1>
-          <h4 id="click">VIEW MORE</h4>
-        </div>
-      </div>
       </div>
     </div>
+
+    <!-- _______________________menubar____________________________ -->
+
+    <div class="sticky-top">
+
+      <div
+      class="container-fluid d-flex justify-content-between align-items-center menubar1 p-2"
+    >
+      <div class="col-3">
+        <a href=""><img src="/Project 1/IMAGES/logo.jpg" alt="" /></a>
+      </div>
+
+      <div class="col-6"></div>
+
+      <div
+        class="col-3 menubar2 d-flex justify-content-between align-items-center"
+      >
+        <a href="">Pricing</a>
+        <button type="submit" id="btn">Log In</button>
+        <!-- <i class="fa-solid fa-bars"></i> -->
+        <button class="btn" style="border: none;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            ...
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+
+
+    <!-- _________________________website builder__________________________ -->
+
+    <div class="container-fluid website_builder">
+
+      <div class="row d-flex justify-content-between align-items-start">
+
+        <div class="col-lg-6 p-5">
+
+          <p class="">WEBSITE BUILDER
+          <h1 class="">Create a website for free</h1>
+          <p class="paragraph1 pt-2">
+            Design and simplicity are at the core of our website builder. Easily
+            create, customize, and promote a stunning website that's search
+            engine ready all on your own with the power of Mailchimp’s platform.
+          </p>
+          <p class="pt-3"><button class="Start p-2">Start Building For Free</button></p>
+        </div>
+
+        <div class="col-lg-6">
+          <img
+            src="/Project 1/IMAGES/1"
+            alt=""
+            style="width: 90%; height: 100%"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- ____________________Brilliant web design, simplified_________________ -->
+
+
+    <div class="container-fluid text-center d-flex justify-content-between align-items-center p-5 brilliant">
+
+      <div class="col-lg-2"></div>
+
+      <div class="col-lg-8">
+        <h1>Brilliant web design, simplified</h1>
+        <p class="pt-2">Our website builder helps bring your unique vision to life—no design or code experience required. Create a customizable, mobile-optimized website within the hour. All you need to start is a domain name and a vision for your website. If you're building a small business website, online store, or otherwise, Mailchimp can simplify the process.</p>
+      </div>
+
+      <div class="col-lg-2"></div>
+
+    </div>
+
+    <!-- ___________________Curate your look and feel__________________________ -->
+
+      <div class="container-fluid curate_yourlook">
+
+        <div class="row d-flex justify-content-between align-items-center">
+
+        <div class="col-lg-6 text-center">
+          <img
+            src="/Project 1/IMAGES/2"
+            alt=""
+            style="width: 90%; height: 100%"
+          />
+        </div>
+
+        <div class="col-lg-6 p-5">
+
+          <p class="paragraph3 pt-5">Curate your look and feel</p>
+          <p class="paragraph2 pt-2">
+            It's easy to build a beautiful site by applying one of our pre-designed color palettes and themes in just a few clicks. Ease-of-use is at the forefront of our website builder. You can even tailor your color palette to your brand for a professional-looking website template.
+          </p>
+          <p class="pt-3"><button class="Start p-2">Start styling</button></p>
+        </div>
+
+      </div>
+
+
+      </div>
+
+
+    <!-- ___________________Customize your new website layout__________________________ -->
+
+
+    <div class="container-fluid Customize_your_new_website">
+
+      <div class="row d-flex justify-content-between align-items-center">
+
+      <div class="col-lg-6 text-center">
+        <img
+          src="/Project 1/IMAGES/3"
+          alt=""
+          style="width: 90%; height: 100%"
+        />
+      </div>
+
+      <div class="col-lg-6 p-5">
+
+        <p class="paragraph5 pt-5">Customize your new website layout</p>
+        <p class="paragraph4 pt-2">
+          Mailchimp's website builder has pre-built, professional layouts for every section, so you can quickly change the structure of your site as much as you like without any coding knowledge.        </p>
+        <p class="pt-3"><button class="Start p-2">Start building your own website</button></p>
+      </div>
+
+    </div>
+
+
+    </div>
+
+        <!-- ___________________See your edits in real time__________________________ -->
+
+
+        <div class="container-fluid See_your_edits pt-5">
+
+          <div class="row d-flex justify-content-between align-items-center">
+    
+          <div class="col-lg-6 text-center">
+            <video src="https://eep.io/videos/yzco4xsimv0y/7c69CTvu0leeYtaOvlN4jq/04a9e6c7ae715fd02a406ebd5666b0cd/25_Website-Builder_AUI_LM_TH_2.mp4" style="width: 90%; height: 100%" autoplay></video>
+            <!-- style="width: 90%; height: 100%" -->
+          </div>
+    
+          <div class="col-lg-6 p-5">
+    
+            <p class="paragraph7 pt-5">See your edits in real time</p>
+            <p class="paragraph6 pt-2">
+              Edit, add a section, resize images, and undo it all right from the page—so you don’t have to leave the editor to make changes. We've made building your own website as easy as possible so that you can integrate your business successfully.          
+            <p class="pt-3"><button class="Start p-2">Start refining</button></p>
+          </div>
+    
+        </div>
+    
+    
+        </div>
+    
+    <!-- ____________________Promote your site_________________ -->
+
+
+    <div class="container-fluid text-center d-flex justify-content-between align-items-center p-5 promote">
+
+      <div class="col-lg-2"></div>
+
+      <div class="col-lg-8">
+        <h1>Promote your site and build an audience with our all-in-one platform</h1>
+        <p class="pt-2">We help you establish your brand, look like a pro, and rise the ranks of search engines using our easy-to-use website builder. Customize your website on a no-code platform so that you don't need to hire anyone else to help.</p>
+      </div>
+
+      <div class="col-lg-2"></div>
+
+    </div>
+
+    <!-- ____________________Reach more people with your Mailchimp website_________________ -->
+
+
+    <div class="container-fluid text-center d-flex justify-content-between align-items-center p-5 reach_more">
+
+      <div class="col-lg-2"></div>
+
+      <div class="col-lg-8">
+        <h1>Brilliant web design, simplified</h1>
+        <p class="pt-2">Grow and engage a bigger, higher quality customer base with intelligent tools that speak to an interested audience when they’re most willing to listen.</p>
+      </div>
+
+      <div class="col-lg-2"></div>
+
+    </div>
+
+    
+<!-- ____________________________________anchor tags___________________________________ -->
+
+      <div class="container-fluid text-center anchor_tags p-3">
+
+        <div class="row d-flex align-items-center justify-content-between container-fluid">
+
+          <div class="col-lg-4 line1 p-3">
+            <p><a href="">Build-In Forms</a></p>
+            <p class="para1">Capture the attention of your website visitors with a custom pop-up form</a></p>
+            <a href="" class="para2">Learn More</a>
+          </div>
+          <div class="col-lg-4 line2 p-3">
+            <p><a href="">Behavioral Targeting</a></p>
+            <p class="para3">Send personalised emails to visitors based on how they interact with your site.</a></p>
+            <a href="" class="para4">Learn More</a>
+          </div>
+          <div class="col-lg-4 line3 p-3">
+            <p><a href="">Reports and Analytics</a></p>
+            <p class="para5">Use free reports to track the performance of your pages and refine as you go</a></p>
+            <a href="" class="para6">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+
+<!-- ____________________________________hand image____________________________________ -->
+
+<div class="container-fluid text-center pt-3 hand_image">
+
+  <div class="p-5"><img src="/Project 1/IMAGES/5"  alt="" width="50%"></div>
+
+</div>
+
+
+<!-- ____________________________________hand image description____________________________________ -->
+
+<div class="container-fluid d-flex justify-content-between align-items-center hand_image_description">
+  <div class="col-2"></div>
+  <div class="col-8 text-center"><h2>With Mailchimp, you can create and publish a stunning website in under an hour.</h2></div>
+  <div class="col-2"></div>
+
+</div>
+
+
+<!-- ____________________________________say hello to ginger____________________________________ -->
+
+<div class="container-fluid text-center pt-3 say_hello" style="background-color: whitesmoke;">
+
+  <div class="p-5"><img src="/Project 1/IMAGES/6"  alt="" width="70%"></div>
+
+</div>
+
+    <!-- ____________________As a brand new startup_________________ -->
+
+
+    <div class="container-fluid text-center d-flex justify-content-between align-items-center p-5 brand_new_startup">
+
+      <div class="col-lg-2"></div>
+
+      <div class="col-lg-8 para">
+        <p class="pt-2">“As a brand new startup, we used Mailchimp's website builder to get our story and business online quickly and easily. This intuitive builder makes trying out new ideas and adding updates straightforward and uncomplicated.”</p>
+        <p class="para01">Dr. Julie Durnan, Founder of The Ginger Agency</p>
+      </div>
+
+      <div class="col-lg-2"></div>
+
+    </div>
+
+    <!-- ___________________Decide if Mailchimp __________________________ -->
+
+    <div class="container-fluid Decide_if_Mailchimp ">
+
+      <div class="row d-flex justify-content-between align-items-center">
+
+      <div class="col-lg-6 text-center">
+        <img
+          src="/Project 1/IMAGES/7"
+          alt=""
+          style="width: 90%; height: 100%"
+        />
+      </div>
+
+      <div class="col-lg-6 p-5">
+
+        <p class="paragraph3 pt-5">Decide if Mailchimp is right for you</p>
+        <p class="paragraph2 pt-2">
+          Check out how our website builder tools stack up against the competition.</p>
+        <p class="pt-3"><button class="Start p-2">See How We Rate</button></p>
+      </div>
+
+    </div>
+
+    </div>
+
+    <!-- ___________________FAQS __________________________ -->
+
+    <div class="container-fluid bg-success p-5">
+
+      <div class="row d-flex justify-content-between align-items-center">
+
+      <div class="col-lg-4">
+        <h1>FAQS</h1>
+      </div>
+
+      <div class="col-lg-8">    
+        
+        <hr>
+
+        <button type="button" class="collapsible">Open Collapsible</button>
+        <div class="content">
+        <p>Lorem ipsum...</p>
+        </div>
+
+        <hr>
+
+        <button type="button" class="collapsible">Open Collapsible</button>
+        <div class="content">
+        <p>Lorem ipsum...</p>
+        </div>
+
+        <hr>
+
+        <button type="button" class="collapsible">Open Collapsible</button>
+        <div class="content">
+        <p>Lorem ipsum...</p>
+        </div>
+
+        <hr>
+
+        <button type="button" class="collapsible">Open Collapsible</button>
+        <div class="content">
+        <p>Lorem ipsum...</p>
+        </div>
+        
+
+        <hr>
+
+        <button type="button" class="collapsible">Open Collapsible</button>
+        <div class="content">
+        <p>Lorem ipsum...</p>
+        </div>
+
+        <hr>
+
+        <button type="button" class="collapsible">Open Collapsible</button>
+        <div class="content">
+        <p>Lorem ipsum...</p>
+        </div>
+
+        <hr>
+
+        <button type="button" class="collapsible">Open Collapsible</button>
+        <div class="content">
+        <p>Lorem ipsum...</p>
+        </div>
+
+        <hr>
+
+
+
+      </div>
+
+    </div>
+
+
+    </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/Project 1/js/index.js"></script>
   </body>
 </html>
