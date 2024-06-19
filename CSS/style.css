@@ -87,6 +87,48 @@
     background-color: whitesmoke;
 }
 
+
+/* ___________________sidebar_________________ */
+
+.side_bar h3 a
+{
+    font-size: 20px;
+}
+.side_bar h4 a
+{
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.side_bar h4
+{
+    width: 80%;
+    margin-left: 20px;
+}
+#number
+{
+    text-decoration: underline;
+}
+
+.side_bar h3:hover
+{
+    background-color: whitesmoke;
+}
+.side_bar h4:hover
+{
+    background-color: whitesmoke;
+}
+.fa-greater-than
+{
+    margin-left: 120px;
+}
+.side_bar a:hover
+{
+    background-color: whitesmoke;
+
+}
+.side_bar 
+
 /* ___________w3 school__________ */
 
 .container {
@@ -111,6 +153,9 @@
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
   }
+
+  /* _____________________English________________ */
+
   
 
 
@@ -476,20 +521,29 @@
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-    background-color: #eee;
-    color: #444;
+    background-color: white;
+    /* color: #444; */
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 22px;
   }
+  @media (max-width: 720px)
+{
+    .collapsible
+    {
+        font-size: 18px;
+    }
+}
+
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .collapsible:hover {
-    background-color: #ccc;
+    /* background-color: #ccc; */
+    text-decoration: underline;
   }
   
   /* Style the collapsible content. Note: hidden by default */
@@ -497,14 +551,14 @@
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
   }
 
   /* ____________ */
 
   .content {
     padding: 0 18px;
-    background-color: white;
+    /* background-color: white; */
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -523,3 +577,146 @@
   .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
+
+/* ___________________Ready_to_start_______________________ */
+  
+  .Ready_to_start h4
+  {
+    font-weight: 400;
+  }
+
+  .Ready_to_start button
+{
+    border-radius: 20px;
+    background-color: white;
+    /* width: 130px; */
+}
+.Ready_to_start button:hover
+{
+    box-shadow: 0px 5px;
+    transform: translateY(-5px);
+}
+.Ready_to_start 
+{
+    background-color: rgb(225, 225, 7);
+}
+
+/* ___________________links_______________________ */
+
+.linked
+{
+    font-size: 14px;
+    background-color: rgb(212, 135, 111);
+}
+.linked h6
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+.linked a
+{
+    text-decoration: underline;
+    color: black;
+}
+.linked a:hover
+{
+    background-color: yellow;
+}
+
+/* ___________________footer_______________________ */
+
+@media (max-width: 720px)
+{
+    .display_block1
+
+    {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+
+.footer 
+{
+    background-color: rgb(212, 135, 111);
+    margin-top: -50px;
+    
+}
+.footer p
+{
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer a 
+{
+    
+    color: black;
+}
+.footer ul li
+{
+    
+    list-style: none;
+    line-height: 2;
+
+
+}
+
+.footer a:hover
+{
+    
+    background-color: yellow;
+}
+
+
+.footer #btn
+{
+    border-radius: 20px;
+    background-color: white;
+    /* width: 130px; */
+}
+.footer #btn:hover
+{
+    box-shadow: 0px 5px;
+    transform: translateY(-5px);
+    background-color: yellow;
+}
+
+/* __________________________log_in_id__________________________ */
+
+.log_in_id
+{
+    text-align: center;
+    padding: 10px;
+    
+}
+#log_in
+{
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+}
+#log_in:hover
+{
+    transform: translateY(-5px);
+    box-shadow: 0px 5px;
+
+}
+
+#sign_up
+{
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: yellow;
+}
+#sign_up:hover
+{
+    transform: translateY(-5px);
+    box-shadow: 0px 5px;
+
+}
+
+
